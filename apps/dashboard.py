@@ -16,7 +16,6 @@ import dash_html_components as html
 import plotly.graph_objects as go
 
 from dash.dependencies import Input, Output, State
-import psycopg2
 import pandas as pd
 import dash_table
 import sqlite3
