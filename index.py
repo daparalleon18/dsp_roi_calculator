@@ -280,7 +280,7 @@ def save_scenario(button_save, button_del, mode_edit,
                                sampling_budget = ?, userid = ?
                                WHERE scenario_id = ?'''
                 modifydatabase(sqledit, (scenario_name, total_hits, conversion_rate, revenue,
-                                          purchase_per_user, sampling_cost, sampling_budget, scenario_combo, userid)) 
+                                          purchase_per_user, sampling_cost, sampling_budget, userid, scenario_combo)) 
                           
                 
        elif eventid =="button-del":
